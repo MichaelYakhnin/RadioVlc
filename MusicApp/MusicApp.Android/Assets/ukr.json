@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "radionv",
+        "Title": "Radio NV",
+        "Src": "http://91.218.212.84:8000/radionv.mp3",
+        "Image": "radionv.png"
+    },
+    {
+      "Name": "kievfm",
+      "Title": "Kyiv FM",
+      "Src": "http://194.183.170.29:8012/stream/1/",
+      "Image": "kievfm.png"
+     },
+     {
+       "Name": "retrofm",
+       "Title": "Retro FM",
+       "Src": "https://cast.radiogroup.com.ua/retro",
+       "Image": "retrofm.png"
+      }
+]
