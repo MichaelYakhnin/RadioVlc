@@ -26,7 +26,15 @@ namespace MusicApp
         }
         public void PlayerPage_OnFailedPlay(object sender, EventArgs e)
         {
-            DisplayAlert("Alert", "Failed to play stream!", "Ok");
+            try
+            {
+                DisplayAlert("Alert", "Failed to play stream!", "Ok");
+            }
+            catch (Exception)
+            {
+
+                //throw;
+            }
         }
         public void PlayerPage_OnDownloadClicked(object sender, EventArgs e)
         {

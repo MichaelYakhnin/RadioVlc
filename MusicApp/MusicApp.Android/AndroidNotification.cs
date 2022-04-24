@@ -38,8 +38,8 @@ namespace MusicApp.Droid
                     .SetLargeIcon(BitmapFactory.DecodeResource(Android.App.Application.Context.Resources, Resource.Drawable.favorite))
                     .SetSmallIcon(Resource.Drawable.exo_icon_play)
                     .SetPriority((int)NotificationPriority.High)
-                    .SetVisibility((int)NotificationVisibility.Public)
-                    .SetDefaults((int)NotificationDefaults.Sound | (int)NotificationDefaults.Vibrate);
+                    .SetVisibility((int)NotificationVisibility.Public);
+                    //.SetDefaults((int)NotificationDefaults.Sound | (int)NotificationDefaults.Vibrate);
 
 
                 NotificationManager notificationManager = mContext.GetSystemService(Context.NotificationService) as NotificationManager;
